@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sumit Verma | Product & UX Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- ── NAV ── -->
+<nav role="navigation" aria-label="Main navigation">
+  <a href="#" class="nav-logo" aria-label="Sumit Verma – home">Sumit Verma<span aria-hidden="true">.</span></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="hamburger" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+  <a href="#work" class="mobile-link">Work</a>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</nav>
+
+<main id="main">
+
+<!-- ── HERO ── -->
+<section class="hero" id="hero" aria-label="Introduction">
+
+  <!-- LEFT: Photo panel -->
+  <!-- Path: assets/hero.png — place your image in the assets/ folder beside index.html -->
+  <div class="hero-img-panel">
+    <img
+      src="assets/hero.png"
+      alt="Sumit Verma – Product & UX Designer"
+      class="hero-photo"
+    />
+  </div>
+
+  <!-- RIGHT: Content panel -->
+  <div class="hero-content">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-eyebrow">Product &amp; UX Designer · 3.5+ yrs · Lucknow, India</div>
+
+    <h1 class="hero-title">
+      <span class="hero-title-line"><span class="hero-title-inner">Designing</span></span>
+      <span class="hero-title-line"><span class="hero-title-inner hero-dim">for real</span></span>
+      <span class="hero-title-line"><span class="hero-title-inner"><span class="hero-accent">constraints</span></span></span>
+    </h1>
+
+    <div class="hero-bottom">
+      <div>
+        <p class="hero-bio">
+          I'm <strong>Sumit Verma</strong> — turning complex problems into clean, intuitive digital experiences. My process starts with — <strong>business</strong>, <strong>technical</strong>, and <strong>user</strong> constraints. I've worked directly with developers and PMs at Aurionpro to ship features, not just hand off specs. Coming from an AR background means I understand the operational side most designers skip.
+        </p>
+        <div class="hero-ctas">
+          <a href="#work" class="hero-btn-primary">
+            View my work
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-stats" role="list">
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-n">3.5<span aria-hidden="true">+</span></div>
+          <div class="hero-stat-l">Years Exp</div>
+        </div>
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-n">3<span aria-hidden="true">+</span></div>
+          <div class="hero-stat-l">Domains</div>
+        </div>
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-n">5<span aria-hidden="true">+</span></div>
+          <div class="hero-stat-l">Projects</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ── PROJECTS ── -->
+<section class="projects-section" id="work" aria-labelledby="work-heading">
+  <div class="section-label" aria-hidden="true">Selected work</div>
+  <h2 class="section-title reveal" id="work-heading">Projects that<br>made an impact.</h2>
+
+  <div class="projects-grid">
+
+    <!-- ── PROJECT CARD 1 ── -->
+    <!-- Image: place screenshot at assets/proj1.png -->
+    <!-- Case Study URL: replace https://google.com with your actual case study link -->
+    <!-- Prototype URL: replace https://google.com with your Figma prototype link -->
+    <div class="proj-card reveal" aria-label="Project: Merchant Payment Form Redesign">
+      <div class="proj-bg-dots" aria-hidden="true"></div>
+      <div class="proj-img-area">
+        <div class="proj-img-placeholder" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <p>Add screenshot here</p>
+        </div>
+        <img
+          src="assets/proj1.png"
+          alt="Merchant Payment Form Redesign project screenshot"
+          class="proj-screenshot"
+          onload="this.classList.add('loaded')"
+          onerror="this.style.display='none'"
+        />
+      </div>
+      <div class="proj-content">
+        <div class="proj-num" aria-hidden="true">01</div>
+        <h3 class="proj-title">Merchant Payment Form Redesign</h3>
+        <div class="proj-category">B2B · Payment Processing</div>
+        <p class="proj-desc">A streamlined merchant payment experience for AuroPay — simplified workflows, reduced errors, and faster transactions.</p>
+        <div class="proj-tags" aria-label="Tools used">
+          <span class="proj-tag-pill">Heuristic Evaluation</span>
+          <span class="proj-tag-pill">Secondary Research</span>
+          <span class="proj-tag-pill">Competitive Analysis</span>
+        </div>
+        <div class="proj-cta-row">
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="proj-case-study-btn">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="proj-case-study-btn">
+            Prototype
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PROJECT CARD 2 ── -->
+    <!-- Image: place screenshot at assets/proj2.png -->
+    <!-- Case Study URL: replace https://google.com with your actual case study link -->
+    <div class="proj-card reveal reveal-d2" aria-label="Project: Healthcare Claims Processing System">
+      <div class="proj-bg-dots" aria-hidden="true"></div>
+      <div class="proj-img-area">
+        <div class="proj-img-placeholder" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <p>Add screenshot here</p>
+        </div>
+        <img
+          src="assets/proj2.svg"
+          alt="Healthcare Claims Processing System project screenshot"
+          class="proj-screenshot"
+          onload="this.classList.add('loaded')"
+          onerror="this.style.display='none'"
+        />
+      </div>
+      <div class="proj-content">
+        <div class="proj-num" aria-hidden="true">02</div>
+        <h3 class="proj-title">Healthcare Claims Processing System</h3>
+        <div class="proj-category">Internal · Healthcare RCM</div>
+        <p class="proj-desc">Simplifying complex and manual claim follow-ups to enable faster processing and higher closure rates.</p>
+        <div class="proj-tags" aria-label="Tools used">
+          <span class="proj-tag-pill">Insight</span>
+          <span class="proj-tag-pill">Healthcare Tech</span>
+          <span class="proj-tag-pill">Claims Management</span>
+        </div>
+        <div class="proj-cta-row">
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="proj-case-study-btn">
+            View Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="proj-case-study-btn">
+            Prototype
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ABOUT + SKILLS + TIMELINE (Combined) ── -->
+<section class="background-section" id="about" aria-labelledby="about-heading">
+  <div class="section-label" aria-hidden="true">Background</div>
+  <h2 class="section-title reveal" id="about-heading">The designer<br>behind the work.</h2>
+
+  <div class="background-grid">
+
+    <!-- Col 1: About -->
+    <div class="bg-col reveal">
+      <div class="bg-col-heading">About me</div>
+      <p class="about-bio">
+        Started as a <strong>Accounts Receivable</strong> in 2019 and shifted to UI/UX and never stopped asking "why does this feel hard to use?" I've since worked across healthcare portals and fintech products with a focus on solving real problems with real constraints.
+      </p>
+      <p class="about-bio" style="margin-top:16px">
+        I believe <strong>great design is invisible</strong> — and enhance business metrics. My process blends research, design decisions, working with constraints and just enough engineering knowledge to keep things buildable.
+      </p>
+      <a href="https://sumitverma25.github.io/Portfolio/assets/SumitVerma.pdf" class="about-dl" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="15" height="15"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+        Download CV
+      </a>
+    </div>
+
+    <!-- Col 2: Skills -->
+    <div class="bg-col reveal reveal-d1">
+      <div class="bg-col-heading">Skills &amp; Tools</div>
+
+      <div class="tool-group">
+        <div class="tool-group-label">Design &amp; Prototyping</div>
+        <div class="tool-chips">
+          <span class="tool-chip">Figma</span>
+          <span class="tool-chip">Framer</span>
+          <span class="tool-chip">Wireframing</span>
+          <span class="tool-chip">Prototyping</span>
+          <span class="tool-chip">UI Design</span>
+          <span class="tool-chip">HTML, CSS &amp; Javascript</span>
+        </div>
+      </div>
+
+      <div class="tool-group">
+        <div class="tool-group-label">Research &amp; Product</div>
+        <div class="tool-chips">
+          <span class="tool-chip">Secondary Research</span>
+          <span class="tool-chip">Heuristic Evaluation</span>
+          <span class="tool-chip">Problem Framing</span>
+          <span class="tool-chip">UX Strategy</span>
+          <span class="tool-chip">Journey Mapping</span>
+        </div>
+      </div>
+
+      <div class="tool-group">
+        <div class="tool-group-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="color:var(--accent);flex-shrink:0"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          AI Workflow
+        </div>
+        <div class="tool-chips">
+          <span class="tool-chip tool-chip-ai">Claude</span>
+          <span class="tool-chip tool-chip-ai">ChatGPT</span>
+          <span class="tool-chip tool-chip-ai">Gemini</span>
+          <span class="tool-chip tool-chip-ai">Stitch</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Col 3: Timeline -->
+    <div class="bg-col reveal reveal-d2">
+      <div class="bg-col-heading">Experience &amp; Education</div>
+      <div class="timeline" role="list">
+
+        <div class="tl-item work" role="listitem">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-date">2022 – Present · 3.5 yrs</div>
+          <div class="tl-role">UI/UX Designer</div>
+          <div class="tl-company">Aurionpro Payment Solutions</div>
+          <p class="tl-desc">Crafting interfaces and prototypes, bridging user research and design to deliver seamless experiences.</p>
+        </div>
+
+        <div class="tl-item work" role="listitem">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-date">2021 – 2022 · 1 year</div>
+          <div class="tl-role">MySQL Administrator</div>
+          <div class="tl-company">Trigent Pvt. Ltd.</div>
+          <p class="tl-desc">Set up and tuned MySQL servers, schema, queries, and replication for performance and availability.</p>
+        </div>
+
+        <div class="tl-item work" role="listitem">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-date">2019 – 2021 · 2 years</div>
+          <div class="tl-role">Accounts Receivable</div>
+          <div class="tl-company">R1 RCM</div>
+          <p class="tl-desc">Transition from AR to UI/UX; redesigned internal healthcare portal, optimizing navigation and reducing task completion time.</p>
+        </div>
+
+        <div class="tl-item work" role="listitem">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-date">2015 – 2019</div>
+          <div class="tl-role">B.Tech, Computer Science</div>
+          <div class="tl-company">A.K.T.U. University</div>
+          <p class="tl-desc">I learned software development fundamentals through academic projects and practical work.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="contact-section" id="contact" aria-labelledby="contact-heading">
+  <div class="section-label" style="justify-content:center" aria-hidden="true">Contact</div>
+  <h2 class="contact-heading reveal" id="contact-heading">
+    Got a project<br><em>in mind?</em>
+  </h2>
+  <p class="contact-sub reveal">Whether you want to hire me or just say hi — my inbox is always open.</p>
+
+  <div class="contact-links reveal">
+    <a href="https://www.linkedin.com/in/sumitvermaresume" target="_blank" rel="noopener noreferrer" class="contact-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="17" height="17"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn
+    </a>
+    <a href="#" class="contact-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="17" height="17"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      +91&nbsp;75708-16769
+    </a>
+    <a href="https://sumitverma25.github.io/Portfolio/assets/SumitVerma.pdf" target="_blank" rel="noopener noreferrer" class="contact-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="17" height="17"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+      Download CV
+    </a>
+  </div>
+
+  <div class="contact-email reveal">
+    <!-- Replace with your actual email address -->
+    <a href="mailto:your@email.com">your@email.com</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer class="footer-bar" role="contentinfo">
+  <span class="footer-copy">© 2026 Sumit Verma. All rights reserved.</span>
+  <span class="footer-made">Designed with <span aria-label="love">♥</span> for great UX</span>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
