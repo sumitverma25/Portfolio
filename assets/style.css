@@ -180,7 +180,7 @@ section{padding:var(--sec-v) var(--sec-h)}
 }
 /* Left: photo panel */
 .hero-img-panel{
-  position:relative;overflow:hidden;min-height:70vh;
+  position:relative;overflow:hidden;min-height:100vh;
 }
 .hero-img-panel::after{
   content:'';position:absolute;inset:0;
